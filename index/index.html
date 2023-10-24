@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.js"> </script>
+    <script type="module" src="../main.js"></script>
+    <title>Example Form</title>
+  </head>
+  <body>
+    <h1>Send Solana</h1>
+    <form>
+      <label for="payee-key">Payee Key:</label>
+      <input type="text" id="payee-key" name="payee-key"><br><br>
+      <label for="payer-key">Payer Key:</label>
+      <input type="text" id="payer-key" name="payer-key"><br><br>
+      <label for="amount">Amount:</label>
+      <input type="number" placeholder="Enter Value" id="amount" name="amount"><br><br>
+      <button type="button" id="submit-button">Submit</button>
+    </form>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
